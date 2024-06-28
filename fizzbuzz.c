@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(void){
-    /*multiples of 3, print Buzz
+    /*multiples of 3, print Buzzz
       multiple of five, print Buzz
       multiple of 7, print buzz
       if its not any of them print Fuzz and print the number
