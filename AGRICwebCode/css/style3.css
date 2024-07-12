@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    background-color: bisque;
+}
+.hero {
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    
+    flex : 1; 
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: green;
+
+    padding: 0 10px;
+    position: relative;
+}
+
+ul li a::after{  
+
+    content: '';
+    width: 0;
+    height: 10px;
+    background: green; /*background colour of animation */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* This is where the animation comes from */
+    top: -55px;
+    transition: 0.5s;
+}
+
+ul li a:hover::after {
+    width: 100%;
+}
+.banner {
+    position: relative;
+    background-image:  url(../agrphotos/web7.png);
+   text-align: center;
+    background-size: contain;   
+}
+.banner img{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    padding: 85px;
+    padding-right:85px;
+    background-color: transparent;
+
+}
+#holder1{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+
+    
+}
+#top{
+        width: 248px;
+        height: 0px;
+        border: 1px ;
+        margin: 0;
+}
+#bottom{
+    width: 248px;
+        height: 0px;
+        border: 1px ;
+        padding-bottom: 33px;
+}
+#holder1 p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    padding-top: 20px;
+    color: rgb(53, 135, 53);
+    
+}
+#holder2{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+    
+}
+#holder3{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+}
+#holder4{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+}
+#holder5{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+}
+#holder6{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+}
+
+#holder2 p{
+    border-left: 1px  ;
+    border-right: 1px  ;
+    padding: 10px 15px;
+    margin :0;
+    color: rgb(53, 135, 53);
+   
+}
+#holder3 p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    color: rgb(53, 135, 53);
+}
+#holder4 p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    color: rgb(53, 135, 53);
+   
+}
+
+#holder5 p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    color: rgb(53, 135, 53);
+}
+#holder6 p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    color: rgb(53, 135, 53);
+   
+}
+#sideimge{
+    
+    float: right;
+    padding-top: 35px;
+}
+
+footer p{
+    background-color: rgb(53, 135, 53);
+    color: aliceblue;
+    background-repeat: no-repeat;
+}
+
+
+
+#holderA p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    padding-top: 200px;
+    color: rgb(53, 135, 53);
+    
+}
+
+#holderA{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    padding-top: 2px;
+    color: rgb(53, 135, 53);
+}
+#holderB{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+    
+}
+#holderC{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+}
+#holderD{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+}
+#holderE{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+}
+#holderF{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    
+}
+
+#holderB p{
+    border-left: 1px  ;
+    border-right: 1px  ;
+    padding: 10px 15px;
+    margin :0;
+    padding-top: 260PX;
+    color: rgb(53, 135, 53);
+   
+}
+#holderC p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    padding-top: 290px;
+    color: rgb(53, 135, 53);
+}
+#holderD p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    padding-top: 290px;
+    color: rgb(53, 135, 53);
+   
+}
+
+#holderE p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    padding-top: 280px;
+    color: rgb(53, 135, 53);
+}
+#holderF p{
+    border-left: 1px ;
+    border-right: 1px ;
+    padding: 10px 15px;
+    margin :0;
+    padding-top: 270px;
+    padding-bottom: 100px;
+    color: rgb(53, 135, 53);
+}
+   
